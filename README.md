@@ -1,20 +1,25 @@
 # aicode
 AI Coding Helper
 
-Creazione e refactoring di codice con l'assistenza di ChatGPT.
+Code creation and refactorign with ChatGPT assistance.
 
-ai.py contiene le istruzioni generali sul codice creato (linguaggio C, doxygen ecc.)
+ai.py contains general settings (C language, doxygen etc.)
 
 
-Creare un file con una funzione.
+Create a file with some functionality
 ```
 py create.py "Function to get the date following a number of days. Starting date and number of days are paramters"
 ```
 
-Modificare un file già esistente.
+Use a text file for instructions
+```
+py create.py requirements.txt
+```
+
+Refactoring
 ```
 py refactor.py get_next_date.c "Use a struct to store dates" 
 ```
 
 
-29.04.2023 - Prima versione solo C.
+29.04.2023 - First version C only.
