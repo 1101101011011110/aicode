@@ -5,6 +5,8 @@ Code creation and refactorign with ChatGPT assistance.
 
 ai.py contains general settings (C language, doxygen etc.)
 
+**Note: you have to use your API key. Set it with ```setx OPENAI_API_KEY “<yourkey>”``` in command prompt.**
+
 
 Create a file with some functionality
 ```
